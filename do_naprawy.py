@@ -83,7 +83,7 @@ while True:
         old_due_date = input("Podaj nowy termin do wykonania zadania: ")
         task_manager.change_due_date(mask_name, old_due_date) 
 
-lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+lista = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
 
 def niepotrzebna_funkcja(x):
     if x == 0:
