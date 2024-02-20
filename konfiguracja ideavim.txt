@@ -1,0 +1,15 @@
+1. Tworzysz plik ".ideavimrc" w katalogu domowym tj.:
+  Windows: C:\Users\[nazwa usera], w polskiej wersji językowej C:\Użytkownicy\[nazwa usera]
+  Linux: ~
+
+2. W tym pliku zamieszczasz to samo co w trakcie kursu zamieszczam w ~/.vimrc:
+  inoremap kj <Esc>
+  :set number 
+  nnoremap <Tab> >>
+	nnoremap <S-Tab> << 
+  xnoremap <Tab> > 
+  xnoremap <S-Tab> <
+
+3. Zapisujesz plik.
+
+4. Powinno działać, jak będą jakieś problemy kontaktuj się z kimś mądrzejszym niż ja (ChatGPT/Google).
