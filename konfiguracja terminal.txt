@@ -1,0 +1,6 @@
+inoremap kj <Esc>
+:set number 
+nnoremap <Tab> >>
+nnoremap <S-Tab> <<
+xnoremap <Tab> >
+xnoremap <S-Tab> <

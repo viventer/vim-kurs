@@ -1,0 +1,30 @@
+1. Kliknij ctrl + ,
+2. Kliknij ikonkę pliku ze strzałką w prawym górnym rogu (Otwórz ustawienia (JSON))
+3. Wklej te ustawienia:
+  // możliwość przejścia do insert mode'a przez kliknięcie "kj"
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["k", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  // Obsługa pozavimowych skrótów (ctrl + c, v, x...)
+  "vim.handleKeys": {
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-x>": false,
+    "<C-p>": false,
+    "<C-w>": false,
+    "<C-d>": false
+  },
+
+4. Kliknij ctrl + k ctrl + s (otwórz skróty klawiaturowe)
+5. Kliknij tą samą ikonkę co w ustawieniach
+6. Wklej te linijki (jako element listy):
+  {
+    "key": "tab",
+    "command": "tab",
+    "when": "editorTextFocus && !editorTabMovesFocus"
+  },
+
+7. Powinno działać, jak będą jakieś problemy kontaktuj się z kimś mądrzejszym niż ja (ChatGPT/Google).
